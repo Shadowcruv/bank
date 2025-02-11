@@ -5,6 +5,7 @@
 
 .getStarted, .secured{
   background: linear-gradient( to right, #363144, #2c2b2b);
+  margin-top: 5rem;
 }
 
 .get-startedM{
@@ -16,6 +17,17 @@
  
   border: none;
   padding: 1rem 1.5rem 1rem 1.5rem;
+  height: 100%;
+  width: 22%;
+  font-size: 1vw;
+}
+
+.button-con{
+  height: 10vh; 
+}
+
+.reward-header{
+  font-size: 1.5vw;
 }
 
 .generation{
@@ -29,12 +41,14 @@
 
 .crypto-servicesM{
   background: linear-gradient( to right, #00040F, #00081f, #36405e);
+  margin-top: 5rem;
 }
 
 .robot{
   position: absolute;
   bottom: 0%;
   right: 0%;
+  height: 60%;
 }
 
 .atm-card{
@@ -46,6 +60,7 @@
   position: absolute;
   top: 30%;
   left: 40%;
+  height: 20%;
 }
 
 .main-section{
@@ -57,9 +72,13 @@
   width: 3rem;
 
 }
-
 .testimonialsM{
   background: linear-gradient( to right, #00040F, #00081f, #36405e);
+  
+}
+
+.testimonials{
+  padding: 4.5rem;
 }
 
 .jensen-T.firstpic{
@@ -86,15 +105,19 @@
 
 .step-left{
   flex-basis: 53%;
-  padding-right: 10%;
+  padding-right: 8%;
 }
 
 .step-right, .billing-right{
   flex-basis: 47%;
 }
 
-.easy-stepsM, .billingM, .businessM, .statsM, .main-section {
+.easy-stepsM, .billingM, .businessM, .statsM, .main-section, .main-container, .my-menu {
   background: linear-gradient( to right, #00040F, #00081f, #36405e);
+}
+
+.businessM, .billingM{
+  margin-top: 5rem;
 }
 
 .billing-left{
@@ -133,11 +156,11 @@
 }
 
 .main-container{
-  width: 100vw;
+  
 }
 
 .main-text{
-  font-size: 4.5rem;
+  font-size: 5vw;
 }
 
 .statsM{
@@ -145,12 +168,12 @@
 }
 
 .all-text{
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   opacity: .75;
 }
 
 .all-head{
-  font-size: 3.5rem
+  font-size: 4vw
 }
 
 .billingM{
@@ -158,4 +181,49 @@
   padding-right: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.stats{
+  width:100%
+}
+
+.decision{
+  width: 62%;
+}
+
+.reward-pic{
+  flex-basis: auto ;
+}
+
+.reward{
+  flex-basis: content;
+}
+
+.lastbtn{
+  width: 45%;
+}
+
+.easy-stepsM, .aboutM{
+  margin-top: 5rem;
+}
+
+.decision-con{
+  margin-top: 4rem;
+}
+
+.big{
+  height: 100%;
+  width: 90%;
+}
+
+.last-section{
+  margin-top: 5rem;
+}
+
+.navi{
+  flex-basis: auto;
+}
+
+.navi-text{
+  font-size: 1.2vw
 }
