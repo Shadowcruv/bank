@@ -1,0 +1,161 @@
+.svg-line{
+  background-color: #ffffff;
+  opacity: 50%;
+}
+
+.getStarted, .secured{
+  background: linear-gradient( to right, #363144, #2c2b2b);
+}
+
+.get-startedM{
+  background: linear-gradient( to right, #00040F, #00081f, #36405e);
+}
+
+.getStartedBtn{
+  background: linear-gradient( to top, #33BBCF, #5CE1E6, #7DE7EB, #9DEDF0, #BEF3F5, #DEF9FA);
+ 
+  border: none;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.generation{
+  background: linear-gradient(to top, #33BBCF, #5CE1E6, #7DE7EB, #9DEDF0, #BEF3F5, #DEF9FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.crypto-servicesM{
+  background: linear-gradient( to right, #00040F, #00081f, #36405e);
+}
+
+.robot{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.atm-card{
+  height: 70%;
+  width: 100%;
+}
+
+.started{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.main-section{
+  position: relative;
+}
+
+.jensen-pic{
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.testimonialsM{
+  background: linear-gradient( to right, #00040F, #00081f, #36405e);
+}
+
+.jensen-T.firstpic{
+  background: linear-gradient(to top left, #11101D,#302f2f,#6D6D6D);
+
+}
+
+.aboutM{
+  background: linear-gradient( to right, #00040F, #00081f, #36405e);
+  height: 15rem;
+}
+
+.about-one{
+  flex-basis: 50%;
+  padding-right: 10rem;
+}
+
+.about-two{
+  flex-basis: 50%;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+
+.step-left{
+  flex-basis: 53%;
+  padding-right: 10%;
+}
+
+.step-right, .billing-right{
+  flex-basis: 47%;
+}
+
+.easy-stepsM, .billingM, .businessM, .statsM, .main-section {
+  background: linear-gradient( to right, #00040F, #00081f, #36405e);
+}
+
+.billing-left{
+  flex-basis: 50%;
+  padding-right: 0%;
+}
+
+.billing-right{
+  flex-basis: 50%;
+  
+}
+
+.business-right{
+  flex-basis: 50%;
+  padding-left: 4rem;
+  padding-right: 4rem
+}
+
+.easily-text{
+  margin-top: 5.5rem;
+}
+
+.business-left{
+  flex-basis: 50%;
+  
+}
+
+.main-left{
+  flex-basis: 50%;
+  padding-top: 5rem ;
+  padding-bottom: 5rem;
+}
+
+.main-right{
+  flex-basis: 50%;
+}
+
+.main-container{
+  width: 100vw;
+}
+
+.main-text{
+  font-size: 4.5rem;
+}
+
+.statsM{
+  padding: 4rem;
+}
+
+.all-text{
+  font-size: 1.5rem;
+  opacity: .75;
+}
+
+.all-head{
+  font-size: 3.5rem
+}
+
+.billingM{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
