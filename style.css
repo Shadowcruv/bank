@@ -3,7 +3,7 @@
   opacity: 50%;
 }
 
-.getStarted, .secured{
+.getStarted{
   background: linear-gradient( to right, #363144, #2c2b2b);
   margin-top: 5rem;
 }
@@ -226,4 +226,8 @@
 
 .navi-text{
   font-size: 1.2vw
+}
+
+.secured{
+  background: linear-gradient( to right, #363144, #2c2b2b);
 }
