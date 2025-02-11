@@ -75,7 +75,7 @@
         <div class="business-right text-white">
           <div class="d-flex align-items-center p-2 mb-3">
             <div class="pe-2 reward-pic">
-              <img src="/images/socials/rewards.png" alt="" class="">
+              <img src="images/socials/rewards.png" alt="" class="">
             </div>
             <div class="reward">
               <p class=" mb-0 fw-semibold reward-header">Rewards</p>
@@ -85,7 +85,7 @@
           </div>
           <div class=" d-flex align-items-center p-2 rounded-4 secured mb-3">
             <div class="pe-2 reward-pic">
-              <img src="/images/socials/secured.png" alt="">
+              <img src="images/socials/secured.png" alt="">
             </div>
             <div class="reward">
               <p class=" mb-0 reward-header fw-semibold">100% Secured</p>
@@ -94,7 +94,7 @@
           </div>
           <div class=" d-flex align-items-center p-2 mb-3">
             <div class="pe-2 reward-pic">
-              <img src="/images/socials/transfer.png" alt="">
+              <img src="images/socials/transfer.png" alt="">
             </div>
             <div class="reward">
               <p class=" mb-0 reward-header fw-semibold">Balance Transfer</p>
@@ -106,7 +106,7 @@
       
       <div class="billingM d-flex p-4">
         <div class="billing-left">
-          <img src="/images/success.png" alt="" class="big">
+          <img src="images/success.png" alt="" class="big">
         </div>
         <div class="billing-right text-white">
           <p class="all-head fw-semibold mb-3 easily-text">Easily control your</p>
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="step-right pe-4">
-          <img src="/images/payment.png" alt="" class="big">
+          <img src="images/payment.png" alt="" class="big">
         </div>
       </div>
 
@@ -145,7 +145,7 @@
       <div class="p-4 testimonialsM text-white mt-4">
         <div class="container testimonials d-flex">
           <div class="jensen-T firstpic rounded-4 p-5 ps-4 pe-4 ">
-            <img class="mb-4" src="/images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
+            <img class="mb-4" src="images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
             <p class="mb-4" style="font-size: 1.2vw;">Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
             <div class="d-flex">
               <img class="jensen-pic me-2" src="/images/jensen.png" alt="">
@@ -156,10 +156,10 @@
             </div>
           </div>
           <div class="jensen-T rounded-4 p-5 ps-4 pe-4 ">
-            <img class="mb-4" src="/images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
+            <img class="mb-4" src="images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
             <p class="mb-4" style="font-size: 1.2vw;">Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
             <div class="d-flex">
-              <img class="jensen-pic me-2" src="/images/jensen.png" alt="">
+              <img class="jensen-pic me-2" src="images/jensen.png" alt="">
               <div class="">
                 <p class="mb-0">Herman Jenson</p>
                 <p class="opacity-50 mb-0">Founder & Leader</p>
@@ -167,10 +167,10 @@
             </div>
           </div>
           <div class="jensen-T rounded-4 p-5 ps-4 pe-4 ">
-            <img class="mb-4" src="/images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
+            <img class="mb-4" src="images/apostrophe.png" alt="" style="margin-bottom: 3rem;" >
             <p class="mb-4" style="font-size: 1.2vw;">Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
             <div class="d-flex">
-              <img class="jensen-pic me-2" src="/images/jensen.png" alt="">
+              <img class="jensen-pic me-2" src="images/jensen.png" alt="">
               <div class="">
                 <p class="mb-0">Herman Jenson</p>
                 <p class="opacity-50 mb-0">Founder & Leader</p>
@@ -180,10 +180,10 @@
         </div>
       </div>
       <div class="crypto-servicesM d-flex ps-4 pe-5 justify-content-between align-items-center">
-        <img class="" src="/images/crypto/Group 481734.png" alt="">
-        <img src="/images/crypto/Group 481735.png" alt="">
-        <img src="/images/crypto/Group 481736.png" alt="" class="mb-2">
-        <img src="/images/crypto/Group 481737.png" alt="">
+        <img class="" src="images/crypto/Group 481734.png" alt="">
+        <img src="images/crypto/Group 481735.png" alt="">
+        <img src="images/crypto/Group 481736.png" alt="" class="mb-2">
+        <img src="images/crypto/Group 481737.png" alt="">
       </div>
 
       <div class="get-startedM  p-4">
@@ -259,6 +259,17 @@
 
       </div>
     </div>
-
+    <script>
+      function checkScreenSize() {
+        if (window.innerWidth < 1100) {
+          document.body.innerHTML = "<h1 style='text-align:center;color:red;'>Please use a desktop to access this site</h1>";
+        }
+      }
+    
+      checkScreenSize();
+    
+      window.addEventListener("resize", checkScreenSize);
+    </script>
+    
   </body>
 </html>
